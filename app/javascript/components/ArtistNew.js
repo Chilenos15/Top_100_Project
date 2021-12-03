@@ -2,7 +2,7 @@ import React from 'react';
 
 const ArtistNew = ({ billboard, artist }) => {
 
-  const { id, name } = billboard 
+  const { id } = billboard 
   const { name, rank } = artist
   const defaultName = name ? name : ""
   const defaultRank = rank ? rank : ""

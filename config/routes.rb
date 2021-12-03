@@ -54,6 +54,6 @@ Rails.application.routes.draw do
   #   resources :comments
   # end
   resources :artists, except: [:index, :new, :create, :edit, :show, :update, :destroy] do
-    resources :comments
+    resources :songs
   end
 end
